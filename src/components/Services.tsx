@@ -1,5 +1,6 @@
 import React from 'react';
 import { Layout, Server, Smartphone, ShoppingBag, Globe, ShieldCheck } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export function Services() {
   const services = [
@@ -8,21 +9,24 @@ export function Services() {
       title: "Frontend Development",
       description: "Create stunning, responsive user interfaces with modern frameworks like React and Vue for exceptional user experiences.",
       color: "bg-blue-500",
-      delay: "0"
+      delay: "0",
+      link: "/services/frontend"
     },
     {
       icon: <Server className="w-6 h-6" />,
       title: "Backend Solutions",
       description: "Robust and scalable server-side architectures using Node.js, Python, or Go to power your applications securely.",
       color: "bg-purple-500",
-      delay: "100"
+      delay: "100",
+      link: "/services/backend"
     },
     {
       icon: <Smartphone className="w-6 h-6" />,
       title: "Mobile Development",
       description: "Cross-platform mobile apps built with React Native or Flutter that deliver native-like performance on iOS and Android.",
       color: "bg-pink-500",
-      delay: "200"
+      delay: "200",
+      link: "/services/mobile"
     },
     {
       icon: <ShoppingBag className="w-6 h-6" />,
@@ -58,7 +62,7 @@ export function Services() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
-          <span className="text-purple-600 font-semibold tracking-wider uppercase text-sm">What We Do</span>
+          <span className="text-purple-600 font-semibold tracking-wider uppercase text-sm">Everything You Need</span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-2 mb-4 font-display">
             Comprehensive Web Services
           </h2>
@@ -85,9 +89,16 @@ export function Services() {
                 {service.description}
               </p>
 
-              <div className="mt-6 flex items-center text-sm font-medium text-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0">
-                Learn more <span className="ml-1">→</span>
-              </div>
+              {service.link ? (
+                <Link to={service.link} className="mt-6 flex items-center text-sm font-medium text-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0 cursor-pointer">
+                  Learn more <span className="ml-1">→</span>
+                </Link>
+              ) : (
+                <div className="mt-6 flex items-center text-sm font-medium text-purple-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0 cursor-pointer">
+                  Learn more <span className="ml-1">→</span>
+                </div>
+              )}
+
             </div>
           ))}
         </div>
