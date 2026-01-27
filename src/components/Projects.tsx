@@ -73,9 +73,20 @@ export function Projects() {
       title: 'Vadtrans Trasnportation',
       description: 'Vadtrans Trasnportation is Nigeria\'s leading transportation booking platform, connecting travelers with reliable transport companies across the country and beyond.',
       image: 'https://images.unsplash.com/photo-1498084393753-b411b2d26b34?q=80&w=1032&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      technologies: ['React', 'TypeScript', 'Styled Components', 'API Integration'],
+      technologies: ['React', 'TypeScript', 'Styled Components', 'API Integration', 'Node.js', 'Railway', 'PostgreSQL', 'JWT', 'Bcrypt'],
       category: 'Transportation',
       liveUrl: 'https://vadtrans-git-main-samuel-akinboros-projects.vercel.app/',
+      githubUrl: '#',
+      featured: true
+    },
+    {
+      id: 7,
+      title: 'Hakari',
+      description: 'Hakari is a comprehensive platform for managing and tracking your tasks and budgets, providing a platform for users to stay organized and achieve their goals.',
+      image: 'https://images.unsplash.com/photo-1588406320565-9fa6d9901d1d?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      technologies: ['React', 'TypeScript', 'Styled Components', 'API Integration', 'Node.js', 'Railway', 'PostgreSQL', 'JWT', 'Bcrypt'],
+      category: 'Finance-Tracking',
+      liveUrl: '#',
       githubUrl: '#',
       featured: true
     }
