@@ -81,8 +81,8 @@ export function Projects() {
     },
     {
       id: 7,
-      title: 'Hakari',
-      description: 'Hakari is a comprehensive platform for managing and tracking your tasks and budgets, providing a platform for users to stay organized and achieve their goals.',
+      title: 'Hikari',
+      description: 'Hikari is a comprehensive platform for managing and tracking your tasks and budgets, providing a platform for users to stay organized and achieve their goals.',
       image: 'https://images.unsplash.com/photo-1588406320565-9fa6d9901d1d?q=80&w=386&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
       technologies: ['React', 'TypeScript', 'Styled Components', 'API Integration', 'Node.js', 'Railway', 'PostgreSQL', 'JWT', 'Bcrypt'],
       category: 'Finance-Tracking',
