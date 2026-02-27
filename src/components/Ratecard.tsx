@@ -127,7 +127,7 @@ export function RateCard() {
                       <div>
                         <p className="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Weekly Sprint</p>
                         <div className="flex items-baseline gap-1">
-                          <span className="text-3xl font-bold">₦1,000,000+</span>
+                          <span className="text-3xl font-bold">₦600,000+</span>
                           <span className="text-slate-400">/week</span>
                         </div>
                         <p className="text-slate-400 text-sm mt-2">Full-time dedication (40h)</p>
