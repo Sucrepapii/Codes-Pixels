@@ -12,25 +12,25 @@ export function RateCard() {
     {
       icon: <Code className="w-5 h-5" />,
       title: "Landing Page / Portfolio",
-      price: "$500 – $1,200",
+      price: "₦500,000 – ₦1,200,000",
       features: ["Responsive design", "SEO optimized", "Contact forms", "Basic animations"]
     },
     {
       icon: <Users className="w-5 h-5" />,
       title: "Corporate Website",
-      price: "$1,200 – $2,500",
+      price: "₦1,200,000 – ₦2,500,000",
       features: ["5-10 pages", "Content management", "Team sections", "Blog integration"]
     },
     {
       icon: <ShoppingCart className="w-5 h-5" />,
       title: "E-Commerce",
-      price: "$2,500 – $6,000",
+      price: "₦1,500,000 – ₦3,500,000",
       features: ["Product catalog", "Shopping cart", "Payment integration", "Inventory management"]
     },
     {
       icon: <Zap className="w-5 h-5" />,
       title: "SaaS Web App",
-      price: "$5,000 – $10,000+",
+      price: "₦4,000,000 – ₦6,000,000+",
       features: ["Custom dashboards", "User authentication", "API integration", "Admin panel"]
     }
   ];
@@ -39,13 +39,13 @@ export function RateCard() {
     {
       icon: <Cloud className="w-5 h-5" />,
       title: "Hosting & Deployment",
-      price: "$100 – $300",
+      price: "₦100,000 – ₦200,000",
       description: "Complete setup on your preferred platform"
     },
     {
       icon: <Calendar className="w-5 h-5" />,
       title: "Maintenance & Support",
-      price: "$150 – $500/month",
+      price: "₦150,000 – ₦500,000/month",
       description: "Regular updates, security patches, and support"
     }
   ];
@@ -118,7 +118,7 @@ export function RateCard() {
                       <div className="pb-6 border-b border-white/10">
                         <p className="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Standard Day</p>
                         <div className="flex items-baseline gap-1">
-                          <span className="text-3xl font-bold">$200 – $350</span>
+                          <span className="text-3xl font-bold">₦200,000 – ₦350,000</span>
                           <span className="text-slate-400">/day</span>
                         </div>
                         <p className="text-slate-400 text-sm mt-2">8 hours of focused development</p>
@@ -127,7 +127,7 @@ export function RateCard() {
                       <div>
                         <p className="text-slate-400 text-sm font-medium uppercase tracking-wider mb-1">Weekly Sprint</p>
                         <div className="flex items-baseline gap-1">
-                          <span className="text-3xl font-bold">$1,000+</span>
+                          <span className="text-3xl font-bold">₦1,000,000+</span>
                           <span className="text-slate-400">/week</span>
                         </div>
                         <p className="text-slate-400 text-sm mt-2">Full-time dedication (40h)</p>
