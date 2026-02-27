@@ -71,8 +71,6 @@ function HomePage() {
   return (
     <>
       <Hero />
-      <Services />
-      <Projects />
       <Contact />
     </>
   );
@@ -87,6 +85,8 @@ export function App() {
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/projects" element={<Projects />} />
             <Route path="/services/frontend" element={<ServiceDetail {...frontendService} />} />
             <Route path="/services/backend" element={<ServiceDetail {...backendService} />} />
             <Route path="/services/mobile" element={<ServiceDetail {...mobileService} />} />
