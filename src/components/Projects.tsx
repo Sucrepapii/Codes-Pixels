@@ -95,7 +95,7 @@ export function Projects() {
 
 
   return (
-    <section id="projects" className="pt-28 pb-16 bg-white min-h-screen">
+    <section id="projects" className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
@@ -243,14 +243,14 @@ export function Projects() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="/#contact"
+                href="#contact"
                 className="bg-purple-600 text-white px-8 py-3 rounded-lg hover:bg-purple-700 transition-colors inline-flex items-center justify-center font-medium"
               >
                 Start a Project
                 <ArrowRightIcon size={20} className="ml-2" />
               </a>
               <a
-                href="/services"
+                href="#services"
                 className="border border-gray-300 text-gray-700 px-8 py-3 rounded-lg hover:border-gray-400 transition-colors inline-flex items-center justify-center font-medium"
               >
                 View Services

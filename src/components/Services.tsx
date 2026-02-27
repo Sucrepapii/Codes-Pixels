@@ -167,7 +167,7 @@ echo "Deployment successful! 🚀"`
   ];
 
   return (
-    <section id="services" className="pt-28 pb-24 bg-white relative overflow-hidden min-h-screen">
+    <section id="services" className="py-24 bg-white relative overflow-hidden">
       {/* Background patterns */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-30 pointer-events-none">
         <div className="absolute top-0 left-0 w-64 h-64 bg-gray-50 rounded-full mix-blend-multiply filter blur-3xl opacity-70 animate-blob"></div>
