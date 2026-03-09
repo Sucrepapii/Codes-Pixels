@@ -89,6 +89,17 @@ export function Projects() {
       liveUrl: '#',
       githubUrl: '#',
       featured: true
+    },
+    {
+      id: 8,
+      title: 'Flivan Airline',
+      description: 'Flivan Airline is a comprehensive platform for managing flights, for both commercial and private jets. It is a platform for booking flights, managing flights, and tracking flights.',
+      image: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=1000&auto=format&fit=crop',
+      technologies: ['React', 'TypeScript', 'Styled Components', 'API Integration', 'Node.js', 'Railway', 'PostgreSQL', 'JWT', 'Bcrypt'],
+      category: 'Airline',
+      liveUrl: '#',
+      githubUrl: '#',
+      featured: true
     }
   ];
 
